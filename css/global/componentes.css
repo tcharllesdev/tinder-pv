@@ -1,0 +1,145 @@
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*BTN*/
+
+.btn {
+  background-image: linear-gradient(139deg, rgba(37,211,102,1) 24%, rgba(0,255,25,1) 50%, rgba(37,211,102,1) 80%);
+  color: #000000;
+  font: 700 1.25rem/1.5 "Montserrat", sans-serif;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 4px;
+  max-width: 360px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+
+.btn2 {
+  background-image: linear-gradient(139deg, rgba(37,211,102,1) 24%, rgba(0,255,25,1) 50%, rgba(37,211,102,1) 80%);
+  color: #000000;
+  font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-top: 8px;
+  border-radius: 4px;
+  max-width: 400px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+
+
+.btn-s {
+  background-image: linear-gradient(139deg, rgba(37,211,102,1) 24%, rgba(0,255,25,1) 50%, rgba(37,211,102,1) 80%);
+  color: #000000;
+  font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-top: 8px;
+  border-radius: 4px;
+  max-width: 280px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+.btn-xs {
+  background-image: linear-gradient(139deg, rgba(37,211,102,1) 24%, rgba(0,255,25,1) 50%, rgba(37,211,102,1) 80%);
+  color: #000000;
+  font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+  background-color: transparent;
+  padding: 8px 20px;
+  margin-top: 8px;
+  border-radius: 4px;
+  max-width: 200px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+
+
+/* .btn {
+  background-image: linear-gradient(139deg, rgba(255,1,67,1) 18%, rgba(252,74,209,1) 37%, rgba(255,1,67,1) 55%, rgba(255,1,67,1) 76%);
+  color: #ededed;
+  font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+  background-color: transparent;
+  padding: 10px 50px;
+  border-radius: 4px;
+  max-width: 400px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+}
+
+.btn2 {
+  background-image: linear-gradient(139deg, rgba(255,1,67,1) 18%, rgba(252,74,209,1) 37%, rgba(255,1,67,1) 55%, rgba(255,1,67,1) 76%);
+  color: #ededed;
+  font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-top: 8px;
+  border-radius: 4px;
+  max-width: 400px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+} */
+
+@keyframes textura {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+/*BTN FIM*/
+
+@media (max-width: 1370px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+

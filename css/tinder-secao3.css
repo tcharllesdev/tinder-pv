@@ -1,0 +1,58 @@
+.tinder-publico-bg {
+  background: linear-gradient(
+    252deg,
+    rgba(62, 11, 89, 1) 0%,
+    rgba(6, 2, 25, 1) 100%
+  );
+  padding: 40px 0;
+}
+
+.tinder-publico h1 {
+  margin-bottom: 24px;
+}
+.publico-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  max-width: 560px;
+}
+
+.tinder-publico > p {
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.tinder-publico a {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+@media (max-width: 520px) {
+  .tinder-publico h1 {
+    font-size: 1.5rem;
+  }
+  .publico-item {
+    font-size: 1rem;
+  }
+  .tinder-publico > p {
+    font-size: 1.275rem;
+  }
+  .tinder-publico a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .tinder-publico > p {
+    font-size: 1.275rem;
+  }
+  .tinder-publico a {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+}
