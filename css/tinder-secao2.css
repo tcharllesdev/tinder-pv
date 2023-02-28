@@ -1,13 +1,13 @@
 .box-espelho {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .75fr 1fr;
   align-items: start;
-  gap: 20px;
+  gap: 40px;
   padding-bottom: 40px;
 }
 .box-texto1 {
   margin-top: 40px;
-  max-width: 520px;
+  max-width: 500px;
 }
 
 .box-texto1 p {
@@ -26,7 +26,7 @@
 
 .box-texto2 {
   grid-column: 2;
-  max-width: 586px;
+  max-width: 500px;
   margin-top: 20px;
 }
 .box-texto2 p {
