@@ -17,7 +17,7 @@
 
 .analise-bonus::after {
   content: "";
-  background-image: url("../img/like-roxo.png");
+  background-image: url("./img/like-roxo.png");
   position: absolute;
   width: 61px;
   height: 63px;

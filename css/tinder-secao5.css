@@ -20,7 +20,7 @@
 
 .tinder-bonus1::after {
   content: "";
-  background-image: url("../img/mockup-bonus-1.png");
+  background-image: url("./img/mockup-bonus-1.png");
   width: 376px;
   height: 384px;
   display: block;
@@ -41,7 +41,7 @@
 
 .tinder-bonus2::before {
   content: "";
-  background-image: url("../img/mockup-bonus2.png");
+  background-image: url("./img/mockup-bonus2.png");
   width: 177px;
   height: 209px;
   display: block;
@@ -56,7 +56,7 @@
 
 .tinder-bonus3::after {
   content: "";
-  background-image: url("../img/mockup-bonus3.png");
+  background-image: url("./img/mockup-bonus3.png");
   width: 329px;
   height: 240px;
   display: block;
@@ -134,7 +134,7 @@
     content: "";
     display: block;
     position: absolute;
-    background-image: url("../img/mockup-bonus2.png");
+    background-image: url("./img/mockup-bonus2.png");
     background-size: 160px 160px;
     width: 160px;
     height: 160px;
